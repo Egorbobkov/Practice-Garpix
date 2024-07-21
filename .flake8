@@ -1,7 +1,0 @@
-[flake8]
-exclude =
-    .venv/*
-    *.pyc
-    __pycache__/
-    build/
-    dist/
