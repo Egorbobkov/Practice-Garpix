@@ -1,0 +1,24 @@
+# created by virtualenv automatically
+*# Ignore PyCharm/IntelliJ IDEA project files
+.idea/
+
+# Ignore Bandit config
+.bandit
+
+# Ignore coverage config
+.coverage
+.coveragerc
+
+# Ignore Flake8 config
+.flake8
+
+# Ignore Lighthouse config
+.lighthouserc.json
+.lighthouseci/
+
+# Ignore Radon config
+radon.cfg
+
+# Ignore SQLite database file if you prefer migrations
+db.sqlite3
+
