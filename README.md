@@ -78,7 +78,7 @@ example.json:
 ---
 
 ### Описание алгоритма:
-![diagram.png](docs/diagram.png)
+![diagram.png](docs/algo.png)
 
 1. Чтение данных из JSON-файла:
    - На вход алгоритма подаётся путь к JSON-файлу.
