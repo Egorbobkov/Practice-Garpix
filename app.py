@@ -2,6 +2,7 @@ import json
 import itertools
 import csv
 import io
+import argparse
 
 
 def is_unique_combination(data, columns):
@@ -78,6 +79,9 @@ def main(json_file_path):
 
 # Пример использования
 if __name__ == "__main__":
-    json_file_path = 'example.json'  # Замените на путь к вашему JSON-файлу
-    result = main(json_file_path)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("json_file_path", help="Путь к JSON-файлу")
+    args = parser.parse_args()
+
+    result = main(args.json_file_path)
     print(result)
